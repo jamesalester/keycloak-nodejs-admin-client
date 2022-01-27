@@ -3,7 +3,7 @@ import * as chai from 'chai';
 import {KeycloakAdminClient} from '../src/client';
 import {credentials} from './constants';
 import faker from '@faker-js/faker';
-import UserRepresentation from '../src/defs/userRepresentation';
+import type UserRepresentation from '../src/defs/userRepresentation.js';
 const expect = chai.expect;
 
 describe('Attack Detection', () => {
