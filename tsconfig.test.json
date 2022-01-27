@@ -1,0 +1,7 @@
+// TODO: This custom TSConfig can be removed after NodeJS 12 is end of life.
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "target": "ES2015"
+  }
+}
