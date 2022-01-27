@@ -14,7 +14,7 @@
   "scripts": {
     "clean": "rimraf lib",
     "lint": "tslint --force --format verbose \"src/**/*.ts\" \"test/*\"",
-    "build": "npm run clean && tsc -p ./tsconfig.release.json --pretty",
+    "build": "npm run clean && tsc --pretty",
     "test": "TS_NODE_PROJECT=tsconfig.test.json mocha --recursive \"test/**/*.spec.ts\"",
     "test:subset": "TS_NODE_PROJECT=tsconfig.test.json mocha --recursive --",
     "test:grep": "TS_NODE_PROJECT=tsconfig.test.json mocha",
