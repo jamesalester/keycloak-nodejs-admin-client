@@ -1,7 +1,7 @@
 node_modules
 coverage
 npm-debug.log
-lib
+# lib
 yarn.lock
 yarn-error.log
 .DS_Store
